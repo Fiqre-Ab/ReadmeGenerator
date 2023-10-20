@@ -61,6 +61,6 @@ This will execute the tests and provide feedback on the project's functionality.
 
 If you have any questions or need further assistance, please feel free to reach out to me:
 
-GitHub: [YourGitHubUsername](https://github.com/Fiqre-Ab/ReadmeGenerator)
+GitHub: [Fiqre-Ab](https://github.com/Fiqre-Ab/ReadmeGenerator)
 
-Email: [youremail@example.com]
+Email: [@example.com]

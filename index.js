@@ -54,7 +54,7 @@ const questions = [
   {
     type: 'input',
     name: 'email',
-    message: 'What is your email address (for questions and inquiries):',
+    message: 'What is your email address:',
     validate: (input) =>
       /\S+@\S+\.\S+/.test(input) || 'Please provide a valid email address.',
   },
@@ -76,7 +76,7 @@ function init() {
 //call generateMarkdown function on the data collected
     inquirer.prompt(questions).then((response)=>{const markdown= generateMarkdown(response)
     
-    writeToFile("README.md", markdown);
+    writeToFile("./doc/README.md", markdown);
     })
 }
 
